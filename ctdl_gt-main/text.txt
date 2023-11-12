@@ -1,0 +1,22 @@
+game: bài tiến lên
+
+giao diện người dùng:
+	+ chỉ cần vào hiển thị 13 lá bài và 3 lá bài úp + số lá còn lại của máy
+	+ các nút cần thiết
+	+ click vào lá bài sẽ trôi lên
+	+ đánh vào giữa bàn khi người dùng bấm nút "đánh"
+	+ viết hàm giảm bài, tăng bài khi cần thiết
+logic bên trong:
+	+ kiểm tra xem người dùng có đánh hợp lệ hay không
+	+ kiểm tra giá trị người dùng đánh 
+		+ đơn, đôi, sảnh, chặt, heo,...
+	+ xử lý logic khi đi tiếp và bỏ lượt
+	+ xử lý luôn hướng đối tượng
+	+ quyết định thắng thua và kết thúc game
+
+
+class Bai:
+	string url;
+	int value;
+	char suit;
+	
